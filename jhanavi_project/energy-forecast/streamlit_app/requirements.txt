@@ -1,0 +1,6 @@
+streamlit==1.25.0
+pandas==2.1.2
+numpy==1.26.2
+requests==2.31.0
+plotly==5.18.0
+shap==0.42.1

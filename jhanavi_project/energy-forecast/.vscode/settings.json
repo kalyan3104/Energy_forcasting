@@ -1,0 +1,18 @@
+{
+  // Turn off workspace type checking to avoid a large amount of spurious
+  // diagnostics from the language server when the editor interpreter and
+  // project venv differ. Prefer enabling this again after selecting the
+  // project's Python interpreter in VS Code.
+  "python.analysis.typeCheckingMode": "off",
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none",
+    "reportMissingTypeStubs": "none",
+    "reportMissingModuleSource": "none",
+    "reportUnknownVariableType": "none",
+    "reportUnknownMemberType": "none",
+    "reportMissingParameterType": "none",
+    "reportUnusedImport": "none",
+    "reportRedeclaration": "none"
+  }
+}
+

@@ -1,0 +1,10 @@
+{
+  "typeCheckingMode": "off",
+  "exclude": [
+    "**/venv/**",
+    "**/.venv/**",
+    "**/__pycache__/**",
+    "backend/app/models/**",
+    "backend/scripts/**"
+  ]
+}
